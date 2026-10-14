@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 1536" role="img" aria-labelledby="title desc">
+  <title id="title">Rooh Ali profile illustration</title>
+  <desc id="desc">A stylized portrait illustration with a gold frame.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#09162e"/>
+      <stop offset="100%" stop-color="#0f234b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6d98a"/>
+      <stop offset="50%" stop-color="#e2b04a"/>
+      <stop offset="100%" stop-color="#b88320"/>
+    </linearGradient>
+  </defs>
+  <rect width="864" height="1536" fill="url(#bg)"/>
+  <rect x="94" y="64" width="676" height="1408" rx="300" fill="url(#gold)" opacity="0.12"/>
+  <circle cx="432" cy="500" r="210" fill="#d7dfe8" opacity="0.92"/>
+  <path d="M286 1225c20-178 122-268 276-268 142 0 250 80 280 260l-38 280H320l-34-272z" fill="#1f3d6f"/>
+  <path d="M330 533c0-142 82-236 201-236 118 0 195 94 195 236 0 116-67 210-196 210-131 0-200-90-200-210z" fill="#f2d8b2"/>
+  <path d="M365 582c28-72 84-120 158-120 90 0 160 60 185 162-22-13-63-32-109-32-102 0-166 45-234 133z" fill="#0c1730" opacity="0.8"/>
+  <circle cx="410" cy="565" r="16" fill="#1a1a1a"/>
+  <circle cx="530" cy="565" r="16" fill="#1a1a1a"/>
+  <path d="M425 650c22 28 48 42 80 42 34 0 62-16 84-45" fill="none" stroke="#8a4b2b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M305 499c0-140 72-244 139-244 86 0 116 82 116 166-26-20-55-30-102-30-82 0-145 54-153 108z" fill="#0f1d38" opacity="0.9"/>
+  <path d="M515 405c94 0 161 59 197 175-36-16-87-30-126-30-86 0-145 40-190 92 18-131 62-237 119-237z" fill="#10234a" opacity="0.9"/>
+  <path d="M385 912h270l34 202H350l35-202z" fill="#c8962c" opacity="0.95"/>
+  <path d="M310 905h64l28 196h-92l0-196z" fill="#e2b04a"/>
+  <path d="M492 905h64l-28 196h-92l56-196z" fill="#d19631"/>
+  <circle cx="774" cy="300" r="64" fill="#e2b04a" opacity="0.18"/>
+  <circle cx="112" cy="1180" r="60" fill="#e2b04a" opacity="0.14"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Rising Coding Star certificate preview</title>
+  <desc id="desc">Certificate preview for Rising Coding Star.</desc>
+  <rect width="800" height="1000" fill="#f8f7f3"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#fff" stroke="#d9b568" stroke-width="4"/>
+  <rect x="70" y="70" width="660" height="860" rx="18" fill="none" stroke="#d9b568" stroke-width="2"/>
+  <text x="400" y="170" text-anchor="middle" fill="#0c1730" font-size="30" font-family="Verdana, Arial, sans-serif" letter-spacing="5">CODINGAL</text>
+  <text x="400" y="255" text-anchor="middle" fill="#d7a437" font-size="42" font-weight="700" font-family="Verdana, Arial, sans-serif">RISING CODING STAR</text>
+  <text x="400" y="345" text-anchor="middle" fill="#3d4f6d" font-size="22" font-family="Verdana, Arial, sans-serif">Coding principles &amp; logic building</text>
+  <rect x="180" y="400" width="440" height="180" rx="18" fill="#f2efe8" stroke="#d9b568" stroke-width="2"/>
+  <text x="400" y="470" text-anchor="middle" fill="#0c1730" font-size="18" font-family="Verdana, Arial, sans-serif">Awarded to</text>
+  <text x="400" y="535" text-anchor="middle" fill="#0c1730" font-size="34" font-weight="700" font-family="Verdana, Arial, sans-serif">Rooh Ali</text>
+  <line x1="170" y1="680" x2="320" y2="680" stroke="#d9b568" stroke-width="3"/>
+  <line x1="480" y1="680" x2="630" y2="680" stroke="#d9b568" stroke-width="3"/>
+  <text x="245" y="725" fill="#3d4f6d" font-size="18" font-family="Verdana, Arial, sans-serif">Mentor</text>
+  <text x="555" y="725" fill="#3d4f6d" font-size="18" font-family="Verdana, Arial, sans-serif">Date</text>
+  <text x="400" y="820" text-anchor="middle" fill="#d7a437" font-size="22" font-weight="700" font-family="Verdana, Arial, sans-serif">DEC 2025</text>
+</svg>
