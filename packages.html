@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Packages | Rooh Ali Web Studio</title>
+  <meta name="description"
+    content="Rooh Ali Web Studio: modern, responsive portfolio websites for students, freelancers, job seekers and professionals. Karachi, Pakistan.">
+  <link rel="icon" href="./assets/logo.png">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html" aria-label="Rooh Ali Web Studio, home"><img src="./assets/logo.png" alt=""
+          width="42" height="42"><b>ROOH ALI<span>WEB STUDIO</span></b></a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="links"
+        aria-label="Open menu"><span></span></button>
+      <nav class="links" id="links" aria-label="Main"><a href="./index.html">Home</a><a href="./packages.html" class="on"
+          aria-current="page">Packages</a><a href="./skills.html">Skills</a><a href="./certificates.html">Certificates</a><a
+          href="./about.html">About</a><a class="cta" href="./contact.html">Contact</a></nav>
+    </div>
+  </header>
+  <main>
+    <div class="phead">
+      <div class="wrap">
+        <div class="eyebrow">Packages</div>
+        <h1>Portfolio websites, <em>priced plainly.</em></h1>
+        <p class="lead">Three fixed packages for students, freelancers, job seekers and professionals. Not sure which
+          one fits? Tell me who you are and I'll point you to one.</p>
+      </div>
+    </div>
+    <section id="packages">
+      <div class="wrap">
+        <div class="finder rv" role="group" aria-label="Package finder">
+          <span class="lbl">I am a:</span>
+          <button class="chip" data-who="student" aria-pressed="false">Student</button>
+          <button class="chip" data-who="freelancer" aria-pressed="false">Freelancer</button>
+          <button class="chip" data-who="seeker" aria-pressed="false">Job seeker</button>
+          <button class="chip" data-who="pro" aria-pressed="false">Established professional</button>
+          <p class="finder-note" id="fnote" aria-live="polite">Pick one to highlight the package that suits you.</p>
+        </div>
+
+        <div class="plans">
+          <article class="plan rv" id="plan-starter" data-name="Starter Portfolio">
+            <h3>Starter Portfolio</h3>
+            <p class="for">Perfect for students &amp; beginners</p>
+            <div class="price"><small>PKR</small>4,999</div>
+            <ul>
+              <li>One-page portfolio website</li>
+              <li>About, skills, projects &amp; contact sections</li>
+              <li>Responsive, mobile-friendly layout</li>
+              <li>One revision round</li>
+            </ul>
+            <a class="btn btn-ghost"
+              href="https://wa.me/923471238260?text=Hi%20Rooh%2C%20I%27d%20like%20the%20Starter%20Portfolio%20%28PKR%204%2C999%29."
+              target="_blank" rel="noopener">Great value for your first step</a>
+          </article>
+          <article class="plan rec rv" id="plan-pro" data-name="Professional Portfolio">
+            <span class="tag">RECOMMENDED</span>
+            <h3>Professional Portfolio</h3>
+            <p class="for">Ideal for freelancers &amp; job seekers</p>
+            <div class="price"><small>PKR</small>8,999</div>
+            <ul>
+              <li>Custom-styled responsive design</li>
+              <li>Up to five agreed sections or pages</li>
+              <li>Project gallery and social links</li>
+              <li>Basic SEO setup and contact options</li>
+              <li>Two revision rounds</li>
+            </ul>
+            <a class="btn btn-gold"
+              href="https://wa.me/923471238260?text=Hi%20Rooh%2C%20I%27d%20like%20the%20Professional%20Portfolio%20%28PKR%208%2C999%29."
+              target="_blank" rel="noopener">Most popular choice</a>
+          </article>
+          <article class="plan rv" id="plan-premium" data-name="Premium Portfolio">
+            <h3>Premium Portfolio</h3>
+            <p class="for">For professionals &amp; established freelancers</p>
+            <div class="price"><small>PKR</small>14,999</div>
+            <ul>
+              <li>Distinctive visual design &amp; animations</li>
+              <li>Expanded project and case-study sections</li>
+              <li>Responsive layouts &amp; refined interactions</li>
+              <li>Basic SEO and social media integration</li>
+              <li>Three revision rounds</li>
+            </ul>
+            <a class="btn btn-ghost"
+              href="https://wa.me/923471238260?text=Hi%20Rooh%2C%20I%27d%20like%20the%20Premium%20Portfolio%20%28PKR%2014%2C999%29."
+              target="_blank" rel="noopener">Stand out with a premium design</a>
+          </article>
+        </div>
+        <p class="fine">Prices are in Pakistani rupees. A package button opens WhatsApp with your choice already typed.
+        </p>
+      </div>
+    </section>
+
+    <section id="build" class="alt">
+      <div class="wrap">
+        <div class="sec-head rv">
+          <div class="eyebrow">What I build</div>
+          <h2 class="h2">A site shaped around <em>who you are.</em></h2>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Website types">
+          <button class="chip" role="tab" id="t-student" aria-selected="true" aria-pressed="true"
+            data-tab="student">Student</button>
+          <button class="chip" role="tab" id="t-freelancer" aria-selected="false" aria-pressed="false"
+            data-tab="freelancer">Freelancer</button>
+          <button class="chip" role="tab" id="t-seeker" aria-selected="false" aria-pressed="false" data-tab="seeker">Job
+            seeker</button>
+          <button class="chip" role="tab" id="t-pro" aria-selected="false" aria-pressed="false"
+            data-tab="pro">Professional</button>
+        </div>
+        <div class="tabpanel" id="tabpanel" role="tabpanel">
+          <div>
+            <h3 id="tp-title"></h3>
+            <p id="tp-text"></p>
+          </div>
+          <ul id="tp-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="sec-head rv">
+          <div class="eyebrow">How it works</div>
+          <h2 class="h2">From first message to <em>live website.</em></h2>
+        </div>
+        <div class="steps">
+          <div class="step rv">
+            <h3>Tell me about you</h3>
+            <p>Message me on WhatsApp with your background, skills and the kind of site you want.</p>
+          </div>
+          <div class="step rv">
+            <h3>Pick a package</h3>
+            <p>We agree the package, the sections and the style, so the scope is clear from day one.</p>
+          </div>
+          <div class="step rv">
+            <h3>I build it</h3>
+            <p>I design and code your site, then share a preview you can open on your phone and laptop.</p>
+          </div>
+          <div class="step rv">
+            <h3>Revise &amp; launch</h3>
+            <p>You get the revision rounds in your package. When you're happy, your site goes live.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="wrap"><img src="./assets/logo.png" alt="Rooh Ali Web Studio logo" width="72" height="72">
+      <div>© <span id="yr">2026</span> Rooh Ali Web Studio. All rights reserved.</div>
+      <div class="tl">Your skills. Your story. Your digital identity.</div>
+    </div>
+  </footer>
+  <button class="totop" id="totop" aria-label="Back to top">↑</button>
+  <script src="./main.js"></script>
+</body>
+
+</html>
